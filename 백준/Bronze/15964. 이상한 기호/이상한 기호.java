@@ -14,10 +14,10 @@ class C {
 
     void setting() throws IOException {
         String[] s = br.readLine().split(" ");
-        int A = Integer.parseInt(s[0]);
-        int B = Integer.parseInt(s[1]);
+        long A = Long.parseLong(s[0]);
+        long B = Long.parseLong(s[1]);
 
-        int result = (A + B) * (A - B);
+        long result = (A + B) * (A - B);
         sb.append(result);
     }
 
